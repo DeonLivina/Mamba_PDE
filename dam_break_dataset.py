@@ -199,8 +199,7 @@ class DamBreakDataset(Dataset):
             print(f"  Method: Standard (mean/std)")
         print(f"{'='*70}\n")
 
-        
-        # ──────────────────────────────────────────────────────────────────────
+    
         print("Step 1: Running FVM simulations...")
         raw_simulations = []
         success = 0
